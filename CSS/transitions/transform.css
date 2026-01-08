@@ -1,0 +1,41 @@
+*{
+    background-image: url("flower.png");
+    background-size: cover;
+}
+section{
+   margin-top: 100px;
+}
+div {
+width: 200px; 
+height: 50px;
+text-align: center; 
+background-color: #7aa874;
+border: 2px solid black;
+margin: 10px;
+}
+div:nth-of-type(2n){
+ background-color: #f7db6a;
+}
+div:nth-of-type(3n){
+ background-color: #ebb02d;
+}
+/* transform property */
+#one{
+  transform: rotate(180deg);
+}
+#two{
+  transform: scale(1.2);
+}
+#three{
+  transform: translateX(200px);
+}
+#four{
+  transform: skew(20deg);
+}
+#five{
+  transform: rotate(45deg) scale(1.5) translateX(50px) skew(10deg);
+}
+#six{
+  margin-top: 180px;
+  box-shadow: 5px 5px 10px black;
+}

@@ -1,0 +1,21 @@
+body{
+    background-color: wheat;
+}
+p{
+    color:brown
+}
+h1,h3,p,h4{
+    text-align: center;
+}
+p{
+    color: red;
+}
+h3{color: black;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    color: green;
+    text-decoration: none;
+}

@@ -13,7 +13,8 @@
     "axe/text-alternatives": [
       "default",
       {
-        "frame-title": "off"
+        "frame-title": "off",
+        "document-title": "off"
       }
     ],
     "axe/structure": [
@@ -22,6 +23,7 @@
         "list": "off"
       }
     ],
-    "meta-viewport": "off"
+    "meta-viewport": "off",
+    "highest-available-document-mode": "off"
   }
 }
